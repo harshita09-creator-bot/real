@@ -1,0 +1,52 @@
+.title {
+    width: 100%;
+    margin:0px;
+    font-size: 24px;
+    box-shadow: 5px 5px 5px gray ;
+}
+
+.subtitle{
+    border-radius: 15px;
+    background-color: aliceblue;
+    color: black;
+    font-size: 24px;
+    box-shadow: 5px 5px 5px gray ;
+    padding-bottom: 10px;
+    float: none;
+}
+
+.subsubtitle{
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.object{
+    font-size: 18px;
+    box-shadow: 5px 5px 5px gray ;
+}
+
+.accuracy{
+    font-size: 18px;
+    box-shadow: 5px 5px 5px gray ;
+}
+
+.footer{
+    background-color:cadetblue;
+    position: fixed;
+    font-family: 'Times New Roman', Times, serif;
+    width:100%;
+    text-align: center;
+    font-size: 20px;
+    bottom: 0;
+    color: cornsilk;
+}
+
+canvas{
+    border: 5px solid lightblue;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px gray;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -20%);
+    position: absolute;
+}
